@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{78166E71-EFD4-4BE2-9DEA-D1635D2D1C6B}|Default">
+  <MonoDevelop.Ide.ItemProperties.OCRTranslator AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ad01170206f710cc0e" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OCRTranslator/MainActivity.cs">
+    <Files>
+      <File FileName="OCRTranslator/MainActivity.cs" Line="78" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/baris/Downloads/OCRTranslator/OCRTranslator/MainActivity.cs" relfile="OCRTranslator/MainActivity.cs" line="78" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

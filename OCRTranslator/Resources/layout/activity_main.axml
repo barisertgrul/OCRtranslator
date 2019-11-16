@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+        <SurfaceView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"/>//camera
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:layout_weight="0.6"/>//selectedimage
+        
+        <TextView
+            android:id="@+id/txt_view"
+            android:text="No Text"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.31" 
+            android:editable="true"
+            />
+    
+     
+    </LinearLayout>//mainview
+    
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_height="wrap_content"
+            android:background="@color/material_grey_600"
+            android:id="@+id/mainmenulayout"
+            android:layout_alignParentBottom="true">
+        <ImageView
+            android:src="@mipmap/gallery"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/imageView1"
+            android:scaleX="0.9"
+            android:scaleY="0.9" />
+        <ImageView
+            android:src="@mipmap/cam"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/imageView2"/>
+        <ImageView
+            android:src="@mipmap/settings"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/imageView3"
+            android:paddingTop="0.5dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7" />
+        </LinearLayout>//mainmenu   
+    
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_height="wrap_content"
+            android:background="@color/material_grey_600"
+            android:id="@+id/capturemenulayout"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible">
+        <ImageView
+            android:src="@mipmap/back"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/imageView4"
+            android:scaleX="0.9"
+            android:scaleY="0.9" />
+        <ImageView
+            android:src="@mipmap/speak"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/imageView5"
+            android:scaleX="0.7"
+            android:scaleY="0.7" />
+        <ImageView
+            android:src="@mipmap/tanslate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/imageView6"
+            android:paddingTop="0.5dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7" />
+        </LinearLayout>//capturemenu
+</RelativeLayout>
